@@ -10,7 +10,7 @@ input UpdatePost {
   content: String!
 }
 
-input Login {
+input LoginParams {
   username: String!
   password: String!
 }
@@ -63,6 +63,7 @@ type Query {
   post(id: Int!): Result!
   posts: [Post]!
   userById(id: Int!): UserResult!
+  me: User
   userByEmailOrUsername(input: String!): UserResult!
   users: [User]!
 }
@@ -74,5 +75,5 @@ type Mutation {
   createUser(input: CreateUser!): UserResult!
   deleteUser(id: Int!): Boolean!
   updateUser(updateRef: StringOrInt, input: UpdateUser!): UserResult!
-  login(input: Login!): UserResult!
+  login(input: LoginParams!): UserResult!
 }

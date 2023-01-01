@@ -31,7 +31,7 @@ export type CreateUser = {
   username: Scalars['String'];
 };
 
-export type Login = {
+export type LoginParams = {
   password: Scalars['String'];
   username: Scalars['String'];
 };
@@ -69,7 +69,7 @@ export type MutationDeleteUserArgs = {
 
 
 export type MutationLoginArgs = {
-  input: Login;
+  input: LoginParams;
 };
 
 
@@ -101,6 +101,7 @@ export type PostInput = {
 export type Query = {
   __typename?: 'Query';
   hello?: Maybe<Scalars['String']>;
+  me?: Maybe<User>;
   post: Result;
   posts: Array<Maybe<Post>>;
   userByEmailOrUsername: UserResult;
@@ -227,7 +228,7 @@ export type ResolversTypes = ResolversObject<{
   Boolean: ResolverTypeWrapper<Scalars['Boolean']>;
   CreateUser: CreateUser;
   Int: ResolverTypeWrapper<Scalars['Int']>;
-  Login: Login;
+  LoginParams: LoginParams;
   Mutation: ResolverTypeWrapper<{}>;
   Post: ResolverTypeWrapper<Post>;
   PostInput: PostInput;
@@ -247,7 +248,7 @@ export type ResolversParentTypes = ResolversObject<{
   Boolean: Scalars['Boolean'];
   CreateUser: CreateUser;
   Int: Scalars['Int'];
-  Login: Login;
+  LoginParams: LoginParams;
   Mutation: {};
   Post: Post;
   PostInput: PostInput;
@@ -289,6 +290,7 @@ export type PostResolvers<ContextType = MyContext, ParentType extends ResolversP
 
 export type QueryResolvers<ContextType = MyContext, ParentType extends ResolversParentTypes['Query'] = ResolversParentTypes['Query']> = ResolversObject<{
   hello?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  me?: Resolver<Maybe<ResolversTypes['User']>, ParentType, ContextType>;
   post?: Resolver<ResolversTypes['Result'], ParentType, ContextType, RequireFields<QueryPostArgs, 'id'>>;
   posts?: Resolver<Array<Maybe<ResolversTypes['Post']>>, ParentType, ContextType>;
   userByEmailOrUsername?: Resolver<ResolversTypes['UserResult'], ParentType, ContextType, RequireFields<QueryUserByEmailOrUsernameArgs, 'input'>>;

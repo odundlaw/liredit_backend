@@ -4,9 +4,19 @@ import { Resolvers } from "../generated/resolvers-types";
 
 const userResolver: Resolvers = {
   Query: {
-    async userById(_, { id }, { data, req }) {
-      console.log(req.session.user, req.session.cookie);
-
+    async me(_, __, { req, data }) {
+      if (!req.session.user) {
+        return null;
+      }
+      const user = await data
+        .createQueryBuilder()
+        .select("u")
+        .from(User, "u")
+        .where("u.id = :id", { id: req.session.user.id })
+        .getOne();
+      return user;
+    },
+    async userById(_, { id }, { data }) {
       if (!id) return { error: "insufficient parameters!" };
       try {
         const user = await data
@@ -63,7 +73,7 @@ const userResolver: Resolvers = {
           return { error: "Wrong login details!" };
         }
         req.session.user = { username: getUser.username, id: getUser.id };
-        console.log(req.session.id)
+        console.log(req.session.id);
         return { data: getUser };
       } catch (err: any) {
         return { error: "Unable to Perform Operation at this time" };
