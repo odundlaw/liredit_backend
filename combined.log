@@ -489,3 +489,13 @@ The type of Mutation.updateUser(updateRef:) must be Input Type but got: UpdateRe
 [2023-01-01T21:37:53.189Z] ORM service [32minfo[39m: App Listening on Port 8080
 [2023-01-01T21:38:59.045Z] Redis [32minfo[39m: Connected Successfully
 [2023-01-01T21:38:59.529Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-02T21:46:27.509Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-02T21:46:41.856Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-02T21:53:41.862Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-02T21:53:42.628Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-02T21:54:36.396Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-02T21:54:37.033Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-02T22:21:00.989Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-02T22:21:01.505Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-02T22:27:20.236Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-02T22:27:20.946Z] ORM service [32minfo[39m: App Listening on Port 8080

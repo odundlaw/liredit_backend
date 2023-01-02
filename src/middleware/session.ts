@@ -2,7 +2,7 @@ import session from "express-session";
 import RedisConnect from "connect-redis";
 import { Application } from "express";
 import { redisServer } from "../utils/redisClient";
-import { __prod__ } from "../constants";
+import { COOKIE_NAME, __prod__ } from "../constants";
 
 export const sessionMiddleware = (app: Application) => {
   let RedisStore = RedisConnect(session);
@@ -10,7 +10,7 @@ export const sessionMiddleware = (app: Application) => {
   app.use(
     session({
       saveUninitialized: false,
-      name: "qid",
+      name: COOKIE_NAME,
       resave: false,
       secret: "fl_qIMlytZcEwgr1pKODDJ_lMAJNnHxl",
       cookie: {

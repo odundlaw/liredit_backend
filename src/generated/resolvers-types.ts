@@ -43,6 +43,7 @@ export type Mutation = {
   deletePost: Scalars['Boolean'];
   deleteUser: Scalars['Boolean'];
   login: UserResult;
+  logout: Scalars['Boolean'];
   updatePost: Result;
   updateUser: UserResult;
 };
@@ -275,6 +276,7 @@ export type MutationResolvers<ContextType = MyContext, ParentType extends Resolv
   deletePost?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType, RequireFields<MutationDeletePostArgs, 'id'>>;
   deleteUser?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType, RequireFields<MutationDeleteUserArgs, 'id'>>;
   login?: Resolver<ResolversTypes['UserResult'], ParentType, ContextType, RequireFields<MutationLoginArgs, 'input'>>;
+  logout?: Resolver<ResolversTypes['Boolean'], ParentType, ContextType>;
   updatePost?: Resolver<ResolversTypes['Result'], ParentType, ContextType, RequireFields<MutationUpdatePostArgs, 'id' | 'input'>>;
   updateUser?: Resolver<ResolversTypes['UserResult'], ParentType, ContextType, RequireFields<MutationUpdateUserArgs, 'input'>>;
 }>;

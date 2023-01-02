@@ -1,4 +1,5 @@
 import argon2 from "argon2";
+import { COOKIE_NAME } from "../constants";
 import { User } from "../entities/user.entities";
 import { Resolvers } from "../generated/resolvers-types";
 
@@ -51,6 +52,19 @@ const userResolver: Resolvers = {
     },
   },
   Mutation: {
+    logout(_, __, { req, res }) {
+      if (req.session.user) {
+        res.clearCookie(COOKIE_NAME);
+        return new Promise((resolve) =>
+          req.session.destroy((err: unknown) => {
+            if (err) return resolve(false);
+            return resolve(true);
+          })
+        );
+      }else {
+        return true
+      }
+    },
     async login(_, { input }, { data, req }) {
       if (!input.username || !input.password) {
         return { error: "Insufficient Parameters passed" };
