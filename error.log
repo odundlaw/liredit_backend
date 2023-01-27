@@ -1,0 +1,148 @@
+[2023-01-06T22:37:41.545Z] ORM Service [31merror[39m: Error: TypeError: app.use() requires a middleware function
+[2023-01-06T22:38:24.157Z] ORM Service [31merror[39m: Error: TypeError: app.use() requires a middleware function
+[2023-01-15T22:39:39.173Z]  [31merror[39m: uncaughtException: Cannot find module 'src/entities/user.entities'
+Require stack:
+- C:\Users\programming\express_graphql\dist\src\config\passport.js
+- C:\Users\programming\express_graphql\dist\src\index.js
+Error: Cannot find module 'src/entities/user.entities'
+Require stack:
+- C:\Users\programming\express_graphql\dist\src\config\passport.js
+- C:\Users\programming\express_graphql\dist\src\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\programming\express_graphql\dist\src\config\passport.js:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+[2023-01-15T22:39:39.173Z]  [31merror[39m: uncaughtException: Cannot find module 'src/entities/user.entities'
+Require stack:
+- C:\Users\programming\express_graphql\dist\src\config\passport.js
+- C:\Users\programming\express_graphql\dist\src\index.js
+Error: Cannot find module 'src/entities/user.entities'
+Require stack:
+- C:\Users\programming\express_graphql\dist\src\config\passport.js
+- C:\Users\programming\express_graphql\dist\src\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\programming\express_graphql\dist\src\config\passport.js:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1099:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+[2023-01-24T21:46:08.692Z]  [31merror[39m: uncaughtException: Cannot read properties of undefined (reading 'message')
+TypeError: Cannot read properties of undefined (reading 'message')
+    at C:\Users\programming\express_graphql\dist\src\controllers\authController.js:17:103
+    at Strategy.strategy.error (C:\Users\programming\express_graphql\node_modules\passport\lib\middleware\authenticate.js:361:18)
+    at C:\Users\programming\express_graphql\node_modules\passport-oauth2\lib\strategy.js:177:34
+    at C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:191:18
+    at passBackControl (C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:132:9)
+    at IncomingMessage.<anonymous> (C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:157:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-01-24T21:46:08.692Z]  [31merror[39m: uncaughtException: Cannot read properties of undefined (reading 'message')
+TypeError: Cannot read properties of undefined (reading 'message')
+    at C:\Users\programming\express_graphql\dist\src\controllers\authController.js:17:103
+    at Strategy.strategy.error (C:\Users\programming\express_graphql\node_modules\passport\lib\middleware\authenticate.js:361:18)
+    at C:\Users\programming\express_graphql\node_modules\passport-oauth2\lib\strategy.js:177:34
+    at C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:191:18
+    at passBackControl (C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:132:9)
+    at IncomingMessage.<anonymous> (C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:157:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-01-24T21:53:13.047Z]  [31merror[39m: uncaughtException: Cannot read properties of undefined (reading 'message')
+TypeError: Cannot read properties of undefined (reading 'message')
+    at C:\Users\programming\express_graphql\dist\src\controllers\authController.js:17:103
+    at Strategy.strategy.error (C:\Users\programming\express_graphql\node_modules\passport\lib\middleware\authenticate.js:361:18)
+    at C:\Users\programming\express_graphql\node_modules\passport-oauth2\lib\strategy.js:177:34
+    at C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:191:18
+    at passBackControl (C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:132:9)
+    at IncomingMessage.<anonymous> (C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:157:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-01-24T21:53:13.047Z]  [31merror[39m: uncaughtException: Cannot read properties of undefined (reading 'message')
+TypeError: Cannot read properties of undefined (reading 'message')
+    at C:\Users\programming\express_graphql\dist\src\controllers\authController.js:17:103
+    at Strategy.strategy.error (C:\Users\programming\express_graphql\node_modules\passport\lib\middleware\authenticate.js:361:18)
+    at C:\Users\programming\express_graphql\node_modules\passport-oauth2\lib\strategy.js:177:34
+    at C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:191:18
+    at passBackControl (C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:132:9)
+    at IncomingMessage.<anonymous> (C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:157:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-01-24T21:56:09.019Z]  [31merror[39m: uncaughtException: Cannot read properties of undefined (reading 'message')
+TypeError: Cannot read properties of undefined (reading 'message')
+    at C:\Users\programming\express_graphql\dist\src\controllers\authController.js:16:103
+    at Strategy.strategy.error (C:\Users\programming\express_graphql\node_modules\passport\lib\middleware\authenticate.js:361:18)
+    at C:\Users\programming\express_graphql\node_modules\passport-oauth2\lib\strategy.js:177:34
+    at C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:191:18
+    at passBackControl (C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:132:9)
+    at IncomingMessage.<anonymous> (C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:157:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-01-24T21:56:09.019Z]  [31merror[39m: uncaughtException: Cannot read properties of undefined (reading 'message')
+TypeError: Cannot read properties of undefined (reading 'message')
+    at C:\Users\programming\express_graphql\dist\src\controllers\authController.js:16:103
+    at Strategy.strategy.error (C:\Users\programming\express_graphql\node_modules\passport\lib\middleware\authenticate.js:361:18)
+    at C:\Users\programming\express_graphql\node_modules\passport-oauth2\lib\strategy.js:177:34
+    at C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:191:18
+    at passBackControl (C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:132:9)
+    at IncomingMessage.<anonymous> (C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:157:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-01-24T21:58:53.037Z]  [31merror[39m: uncaughtException: Cannot read properties of undefined (reading 'message')
+TypeError: Cannot read properties of undefined (reading 'message')
+    at C:\Users\programming\express_graphql\dist\src\controllers\authController.js:16:103
+    at Strategy.strategy.error (C:\Users\programming\express_graphql\node_modules\passport\lib\middleware\authenticate.js:361:18)
+    at C:\Users\programming\express_graphql\node_modules\passport-oauth2\lib\strategy.js:177:34
+    at C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:191:18
+    at passBackControl (C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:132:9)
+    at IncomingMessage.<anonymous> (C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:157:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-01-24T21:58:53.037Z]  [31merror[39m: uncaughtException: Cannot read properties of undefined (reading 'message')
+TypeError: Cannot read properties of undefined (reading 'message')
+    at C:\Users\programming\express_graphql\dist\src\controllers\authController.js:16:103
+    at Strategy.strategy.error (C:\Users\programming\express_graphql\node_modules\passport\lib\middleware\authenticate.js:361:18)
+    at C:\Users\programming\express_graphql\node_modules\passport-oauth2\lib\strategy.js:177:34
+    at C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:191:18
+    at passBackControl (C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:132:9)
+    at IncomingMessage.<anonymous> (C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:157:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-01-24T21:59:05.598Z]  [31merror[39m: uncaughtException: Cannot read properties of undefined (reading 'message')
+TypeError: Cannot read properties of undefined (reading 'message')
+    at C:\Users\programming\express_graphql\dist\src\controllers\authController.js:16:103
+    at Strategy.strategy.error (C:\Users\programming\express_graphql\node_modules\passport\lib\middleware\authenticate.js:361:18)
+    at C:\Users\programming\express_graphql\node_modules\passport-oauth2\lib\strategy.js:177:34
+    at C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:191:18
+    at passBackControl (C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:132:9)
+    at IncomingMessage.<anonymous> (C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:157:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[2023-01-24T21:59:05.598Z]  [31merror[39m: uncaughtException: Cannot read properties of undefined (reading 'message')
+TypeError: Cannot read properties of undefined (reading 'message')
+    at C:\Users\programming\express_graphql\dist\src\controllers\authController.js:16:103
+    at Strategy.strategy.error (C:\Users\programming\express_graphql\node_modules\passport\lib\middleware\authenticate.js:361:18)
+    at C:\Users\programming\express_graphql\node_modules\passport-oauth2\lib\strategy.js:177:34
+    at C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:191:18
+    at passBackControl (C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:132:9)
+    at IncomingMessage.<anonymous> (C:\Users\programming\express_graphql\node_modules\oauth\lib\oauth2.js:157:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)

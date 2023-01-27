@@ -1,0 +1,187 @@
+[2023-01-03T19:07:49.166Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-03T19:07:57.490Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-04T06:55:54.103Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-04T06:55:57.903Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T20:39:41.027Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T20:39:44.834Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T21:28:52.024Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T21:28:52.714Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T21:31:06.310Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T21:31:06.887Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T21:33:22.074Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T21:33:22.493Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T21:38:03.452Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T21:38:04.322Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T21:38:19.261Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T21:38:19.908Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T21:40:14.641Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T21:40:15.490Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T21:42:03.777Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T21:42:04.350Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T21:42:39.354Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T21:42:39.813Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T21:52:57.703Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T21:52:58.156Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T22:26:03.818Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T22:26:04.325Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T22:30:25.489Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T22:30:26.050Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T22:31:45.997Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T22:31:46.602Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T22:32:10.201Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T22:32:10.879Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T22:34:15.753Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T22:34:16.220Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T22:37:41.195Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T22:37:41.545Z] ORM Service [31merror[39m: Error: TypeError: app.use() requires a middleware function
+[2023-01-06T22:38:23.674Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T22:38:24.157Z] ORM Service [31merror[39m: Error: TypeError: app.use() requires a middleware function
+[2023-01-06T22:38:53.238Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T22:38:53.702Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T22:39:49.472Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T22:39:49.831Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T22:43:03.028Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T22:43:10.056Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T22:48:36.088Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T22:48:36.598Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T22:50:38.047Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T22:50:38.764Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T22:51:14.296Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T22:51:14.892Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T22:55:10.613Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T22:55:11.376Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T22:57:44.808Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T22:57:45.343Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T23:04:08.805Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T23:04:09.523Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T23:07:27.092Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T23:07:27.772Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T23:11:23.471Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T23:11:24.064Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-06T23:18:09.659Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-06T23:18:11.769Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T21:56:31.606Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T21:56:39.230Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T21:59:47.270Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T21:59:47.779Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T22:00:22.874Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:00:23.538Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T22:10:20.911Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:10:21.716Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T22:11:29.144Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:11:29.595Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T22:12:12.595Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:12:13.080Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T22:18:50.332Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:18:51.160Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T22:22:53.793Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:22:54.650Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T22:23:42.211Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:23:43.412Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T22:24:13.412Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:24:14.067Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T22:37:09.442Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:37:10.224Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T22:37:36.554Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:37:37.258Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T22:39:39.198Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:40:23.649Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:40:24.335Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T22:41:09.613Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:41:10.305Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T22:41:27.980Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:41:28.426Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T22:42:32.641Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:42:33.373Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T22:43:13.690Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:43:14.425Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T22:43:27.582Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:43:28.187Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T22:47:56.084Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:47:56.636Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T22:51:09.171Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:51:10.323Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T22:53:05.117Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:53:06.129Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T22:57:26.042Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T22:57:27.183Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T23:00:08.791Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T23:00:09.409Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T23:08:05.059Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T23:08:05.462Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T23:09:19.017Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T23:09:19.938Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T23:10:40.804Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T23:10:41.429Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T23:11:48.133Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T23:11:48.907Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T23:12:16.906Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T23:12:17.496Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T23:12:40.637Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T23:12:41.222Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T23:13:08.955Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T23:13:09.538Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T23:13:32.825Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T23:13:33.639Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T23:14:36.464Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T23:14:37.178Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-15T23:15:30.728Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-15T23:15:31.086Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T21:15:44.074Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T21:15:52.019Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T21:26:12.510Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T21:26:13.585Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T21:35:11.363Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T21:35:12.776Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T21:38:21.915Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T21:38:22.399Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T21:39:44.051Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T21:39:44.750Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T21:45:33.391Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T21:45:33.901Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T21:48:20.282Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T21:48:20.792Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T21:53:11.682Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T21:53:12.305Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T21:53:34.511Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T21:53:35.169Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T21:56:02.689Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T21:56:03.528Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T21:56:07.494Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T21:56:08.154Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T21:56:27.819Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T21:56:28.435Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T21:58:51.486Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T21:58:52.286Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T21:59:01.709Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T21:59:02.378Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T21:59:23.715Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T21:59:24.199Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T22:11:41.810Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T22:11:42.564Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T22:13:51.695Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T22:13:52.407Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T22:14:55.017Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T22:14:55.715Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T22:15:57.674Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T22:15:58.770Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T22:16:08.474Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T22:16:09.234Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T22:17:18.887Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T22:17:19.479Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T22:30:20.186Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T22:30:21.279Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T22:30:48.321Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T22:30:49.296Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T22:41:45.941Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T22:41:46.597Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T22:42:25.457Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T22:42:25.981Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T22:44:33.792Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T22:44:34.442Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T22:50:22.086Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T22:50:23.079Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T22:51:03.578Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T22:51:04.291Z] ORM service [32minfo[39m: App Listening on Port 8080
+[2023-01-24T22:52:13.673Z] Redis [32minfo[39m: Connected Successfully
+[2023-01-24T22:52:14.342Z] ORM service [32minfo[39m: App Listening on Port 8080

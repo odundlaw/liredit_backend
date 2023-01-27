@@ -61,8 +61,8 @@ const userResolver: Resolvers = {
             return resolve(true);
           })
         );
-      }else {
-        return true
+      } else {
+        return true;
       }
     },
     async login(_, { input }, { data, req }) {
@@ -87,7 +87,6 @@ const userResolver: Resolvers = {
           return { error: "Wrong login details!" };
         }
         req.session.user = { username: getUser.username, id: getUser.id };
-        console.log(req.session.id);
         return { data: getUser };
       } catch (err: any) {
         return { error: "Unable to Perform Operation at this time" };

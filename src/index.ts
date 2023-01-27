@@ -14,6 +14,9 @@ import { helloResolver } from "./resolvers/hello.resolvers";
 import { userResolver } from "./resolvers/user.resolvers";
 import { readFileSync } from "fs";
 import { sessionMiddleware } from "./middleware/session";
+import { authRoutes } from "./routes/authRoutes";
+import passport from "passport";
+import "./config/passport";
 
 export type MyContext = {
   token: string | string[] | undefined;
@@ -28,8 +31,9 @@ const typeDefs = readFileSync("./src/schema/schema.graphql", {
 
 const AppDataSource = new DataSource(typeormConfig);
 
-const DI = {} as {
+export const DI = {} as {
   server: http.Server<typeof http.IncomingMessage, typeof http.ServerResponse>;
+  dataSource: DataSource;
 };
 const app: Application = express();
 const port = __prod__ ? process.env.PORT : 8080;
@@ -37,6 +41,7 @@ const port = __prod__ ? process.env.PORT : 8080;
 const main = async () => {
   try {
     const dataSource = await AppDataSource.initialize();
+    DI.dataSource = dataSource;
 
     DI.server = http.createServer(app);
 
@@ -48,6 +53,7 @@ const main = async () => {
     await apolloServer.start();
     app.set("trust proxy", !__prod__);
     sessionMiddleware(app);
+    authRoutes(app);
     app.use(
       "/",
       cors<cors.CorsRequest>({
@@ -64,6 +70,7 @@ const main = async () => {
         }),
       })
     );
+    app.use(passport.initialize());
 
     await new Promise<void>((resolve) =>
       DI.server.listen({ port: port }, resolve)
